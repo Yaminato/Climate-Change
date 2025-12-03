@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Climate Change & Campus Safety Guide</title>
+    <link rel="icon" type="image/png" href="../images/psu-lubao.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <img src="../images/psu-lubao.png" alt="Lubao Campus" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%;" />
+        </div>
+        <a href="home.html" class="nav-item active">Home</a>
+        <a href="climate.html" class="nav-item">Climate Change</a>
+        <a href="campus.html" class="nav-item">Campus Guide</a>
+        <a href="map.html" class="nav-item">Map</a>
+        <a href="about.html" class="nav-item">About</a>
+    </nav>
+
+    <div class="page active">
+        <div class="content-section">
+            <h1 id="home-type" class="home-type" style="text-align: center;"></h1>
+            <div class="divider"></div>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">Explore our comprehensive guide combining climate change education with campus safety and disaster preparedness.</p>
+
+            <!-- Tabbed Evidence/Causes/Effects section -->
+            <div class="tab-container">
+                <div class="tab-nav">
+                    <button class="tab-btn active" onclick="switchTab(event, 'evidence')">Evidence</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'causes')">Causes</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'effects')">Effects</button>
+                </div>
+
+                <div id="evidence" class="tab-content active">
+                    <div class="featured-section">
+                        <div class="featured-content">
+                            <h2>How Do We Know Climate Change is Real?</h2>
+                            <p>There is unequivocal evidence that Earth is warming at an unprecedented rate. Human activity is the principal cause.</p>
+                            <p>Earth-orbiting satellites and new technologies have helped scientists see the big picture, collecting many different types of information about our planet and its climate all over the world. These data, collected over many years, reveal the signs and patterns of a changing climate.</p>
+                            <a href="climate.html" class="hero-btn">Learn More</a>
+                        </div>
+                        <img src="../images/article/ph.png" alt="Climate Evidence" class="featured-image">
+                    </div>
+                </div>
+
+                <div id="causes" class="tab-content">
+                    <div class="featured-section">
+                        <div class="featured-content">
+                            <h2>What Causes Climate Change?</h2>
+                            <p>The main causes of current climate change include:</p>
+                            <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                                <li><strong>Burning Fossil Fuels:</strong> Coal, oil, and gas release greenhouse gases</li>
+                                <li><strong>Deforestation:</strong> Reduces nature's ability to regulate the atmosphere</li>
+                                <li><strong>Industrial Activities:</strong> Release significant amounts of greenhouse gases</li>
+                                <li><strong>Agriculture:</strong> Livestock farming produces methane</li>
+                            </ul>
+                            <a href="climate.html" class="hero-btn">Explore Causes</a>
+                        </div>
+                        <img src="../images/article/pol.png" alt="Climate Causes" class="featured-image">
+                    </div>
+                </div>
+
+                <div id="effects" class="tab-content">
+                    <div class="featured-section">
+                        <div class="featured-content">
+                            <h2>Effects of Climate Change</h2>
+                            <p>Climate change impacts are visible worldwide:</p>
+                            <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                                <li><strong>Rising Temperatures:</strong> More frequent heatwaves</li>
+                                <li><strong>Sea Level Rise:</strong> Threatening coastal communities</li>
+                                <li><strong>Extreme Weather:</strong> More hurricanes, floods, droughts</li>
+                                <li><strong>Ecosystem Disruption:</strong> Wildlife habitats changing</li>
+                            </ul>
+                            <a href="climate.html" class="hero-btn">View Effects</a>
+                        </div>
+                        <img src="../images/article/effect.png" alt="Climate Effects" class="featured-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest News Section -->
+            <section style="margin: 3rem 0;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                    <h2>Latest News</h2>
+                    <a href="climate.html" style="font-weight: 700; color: #b22234; text-decoration: none;">More News →</a>
+                </div>
+
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-card-image" style="background-image: url('../images/article/heat.png'); background-size: cover;"></div>
+                        <div class="news-card-meta"> ARTICLE</div>
+                        <div class="news-card-body">
+                            <div class="news-card-title">190th Climate Outlook Forum</div>
+                            <div class="news-card-desc">The Climate Forum was held by Government and private sector representatives to discuss with the climate information providers the current climate status and its outlook for the coming months, and how these forecast information products can be improved for specific end-users.</div>
+                        </div>
+                    </div>
+
+                    <div class="news-card">
+                        <div class="news-card-image" style="background-image: url('../images/article/ice.png'); background-size: cover;"></div>
+                        <div class="news-card-meta"> ARTICLE </div>
+                        <div class="news-card-body">
+                            <div class="news-card-title">Thinning Arctic Sea Ice</div>
+                            <div class="news-card-desc">New satellite imagery shows rapid changes in Arctic sea ice thickness and extent.</div>
+                        </div>
+                    </div>
+
+                    <div class="news-card">
+                        <div class="news-card-image" style="background-image: url('../images/article/arti1.png'); background-size: cover;"></div>
+                        <div class="news-card-meta"> ARTICLE </div>
+                        <div class="news-card-body">
+                            <div class="news-card-title">Climate Action on Campus</div>
+                            <div class="news-card-desc">Universities lead the way in sustainability and climate change mitigation efforts.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Articles -->
+            <section style="margin: 3rem 0;">
+                <h2 style="margin-bottom: 1.5rem;">Featured Articles</h2>
+                <div class="featured-articles">
+                    <div class="article-thumb">
+                        <img src="../images/article/aritcle.png" alt="Article" class="article-thumb-img">
+                        <div class="article-thumb-content">
+                            
+                            <div class="article-thumb-title">Climate Change In The Philippines: Causes, Effects and Solutions</div>
+                        </div>
+                    </div>
+
+                    <div class="article-thumb">
+                        <img src="../images/article/logo.png" alt="Article" class="article-thumb-img">
+                        <div class="article-thumb-content">
+                            
+                            <div class="article-thumb-title">Department of Science and Technology
+Philippine Atmospheric, Geophysical and
+Astronomical Services Administration</div>
+                        </div>
+                    </div>
+
+                    <div class="article-thumb">
+                        <img src="../images/article/article2.png" alt="Article" class="article-thumb-img">
+                        <div class="article-thumb-content">
+                            
+                            <div class="article-thumb-title">Climate Change Impacts Severely Impede SDGs, Says ADB–UN Report</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Vital Signs -->
+            <section class="vital-signs">
+                <div class="vital-signs-header">
+                    <h2 style="margin: 0;">Vital Signs of the Planet</h2>
+                    <a href="climate.html" style="font-weight: 700; color: #b22234; text-decoration: none;">Show All →</a>
+                </div>
+
+                <div class="vital-signs-grid">
+                    <div class="vital-stat">
+                        <div class="vital-stat-label">Carbon Dioxide</div>
+                        <div class="vital-stat-value" style="color: #b22234;">↑ 430</div>
+                        <div class="vital-stat-unit">parts per million</div>
+                    </div>
+
+                    <div class="vital-stat">
+                        <div class="vital-stat-label">Global Temperature</div>
+                        <div class="vital-stat-value" style="color: #b22234;">↑ 1.5</div>
+                        <div class="vital-stat-unit">°C since preindustrial</div>
+                    </div>
+
+                    <div class="vital-stat">
+                        <div class="vital-stat-label">Methane</div>
+                        <div class="vital-stat-value" style="color: #b22234;">↑ 1935</div>
+                        <div class="vital-stat-unit">parts per billion</div>
+                    </div>
+
+                    <div class="vital-stat">
+                        <div class="vital-stat-label">Arctic Sea Ice</div>
+                        <div class="vital-stat-value" style="color: #b22234;">↓ 12.2</div>
+                        <div class="vital-stat-unit">percent per decade since 1979</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+    // Typewriter for home page header
+    (function(){
+        function wait(ms){return new Promise(r=>setTimeout(r,ms));}
+        async function type(el, texts){
+            while(true){
+                for(const t of texts){
+                    el.textContent = '';
+                    for(let i=0;i<t.length;i++){ el.textContent += t[i]; await wait(60); }
+                    await wait(2000);
+                    for(let i=t.length;i>=0;i--){ el.textContent = t.slice(0,i); await wait(30); }
+                    await wait(300);
+                }
+            }
+        }
+        document.addEventListener('DOMContentLoaded', ()=>{
+            const el = document.getElementById('home-type');
+            if(el) type(el, ['Welcome to Our Campus','Welcome to Pampanga State University']);
+        });
+    })();
+
+    // Tab switching
+    function switchTab(event, tabName) {
+        event.preventDefault();
+        // Hide all tab contents
+        document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+        // Remove active class from all buttons
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        // Show selected tab and mark button active
+        document.getElementById(tabName).classList.add('active');
+        event.target.classList.add('active');
+    }
+    </script>
+</body>
+</html>
