@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  <rect x="50" y="50" width="700" height="500" fill="#ffffff" stroke="#333" stroke-width="3"/>
+  <text x="400" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Library Room - Floor 1</text>
+  
+  <!-- Book shelves -->
+  <rect x="80" y="80" width="150" height="20" fill="#8b4513" stroke="#333" stroke-width="1"/>
+  <text x="155" y="95" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">Bookshelves</text>
+  
+  <rect x="80" y="120" width="150" height="20" fill="#8b4513" stroke="#333" stroke-width="1"/>
+  <rect x="80" y="160" width="150" height="20" fill="#8b4513" stroke="#333" stroke-width="1"/>
+  <rect x="80" y="200" width="150" height="20" fill="#8b4513" stroke="#333" stroke-width="1"/>
+  
+  <!-- Study tables -->
+  <rect x="280" y="100" width="120" height="80" fill="#d2b48c" stroke="#8b7355" stroke-width="2"/>
+  <text x="340" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">Study Area</text>
+  
+  <rect x="450" y="100" width="120" height="80" fill="#d2b48c" stroke="#8b7355" stroke-width="2"/>
+  
+  <!-- Circulation desk -->
+  <rect x="300" y="250" width="200" height="60" fill="#a0522d" stroke="#333" stroke-width="2"/>
+  <text x="400" y="285" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">Circulation Desk</text>
+  
+  <!-- Seating area -->
+  <g>
+    <circle cx="150" cy="350" r="12" fill="#ffd700" stroke="#333" stroke-width="1"/>
+    <circle cx="210" cy="350" r="12" fill="#ffd700" stroke="#333" stroke-width="1"/>
+    <circle cx="270" cy="350" r="12" fill="#ffd700" stroke="#333" stroke-width="1"/>
+  </g>
+  <text x="210" y="395" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">Reading Seats</text>
+  
+  <!-- Doors -->
+  <rect x="650" y="50" width="30" height="5" fill="#d32f2f" stroke="#a00" stroke-width="2"/>
+  <text x="670" y="75" font-size="10" font-weight="bold" text-anchor="middle" fill="#d32f2f">EXIT</text>
+  
+  <rect x="50" y="450" width="5" height="40" fill="#2196f3" stroke="#333" stroke-width="1"/>
+  <text x="30" y="475" font-size="10" font-weight="bold" fill="#2196f3">Door</text>
+  
+  <!-- Stairs -->
+  <rect x="600" y="420" width="100" height="80" fill="#ffd700" stroke="#b8860b" stroke-width="2"/>
+  <text x="650" y="465" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Stairs</text>
+  
+  <!-- Legend -->
+  <g font-size="11">
+    <text x="70" y="540" fill="#333">📍 Recommended Exit: Use stairs (bottom right) or main exit (top right)</text>
+  </g>
+</svg>
